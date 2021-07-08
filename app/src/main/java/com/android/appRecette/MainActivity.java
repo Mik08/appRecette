@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
             }
-
 
 
     @Override
@@ -59,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
             Intent PagePro = new Intent(MainActivity.this, Profil.class);
             startActivity(PagePro);
            Toast.makeText(this, "espace profil => " + item.getTitle(), Toast.LENGTH_SHORT).show();
+            return true;
+
+        }else if (id == R.id.deconnexion)  {
+
+            Intent intent =new Intent();
+            finish();
             return true;
 
         }else {
