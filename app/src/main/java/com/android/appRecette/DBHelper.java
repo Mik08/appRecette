@@ -33,6 +33,7 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put("pseudo", pseudo);
         contentValues.put("mail", mail);
         contentValues.put("password", password);
+
         Long result = madb.insert("user", null, contentValues);
         if (result == -1) {
             //retourne une errreur

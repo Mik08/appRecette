@@ -9,5 +9,6 @@
     <string name="Password"></string>
     <string name="Valider"></string>
     <string name="imgDescription"></string>
+    <string name="vos_recettes">Vos recettes</string>
 
 </resources>

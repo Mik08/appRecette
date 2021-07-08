@@ -6,7 +6,7 @@
     <item
         android:id="@+id/menu_inscription"
         android:title="Inscription"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:icon="@drawable/ic_inscription" />
 
     <item
@@ -23,9 +23,9 @@
 
     <item
         android:id="@+id/deconnexion"
-        android:title="@string/Deconnexion"
+        android:title="Deconnexion"
         app:showAsAction="ifRoom"
-
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
         />
 
 
