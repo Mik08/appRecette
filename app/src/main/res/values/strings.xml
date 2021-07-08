@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Recette</string>
+    <string name="Inscription"></string>
+    <string name="Connexion"></string>
+    <string name="Deconnexion"></string>
+    <string name="Recent"></string>
+    <string name="Mail"></string>
+    <string name="Pseudo"></string>
+    <string name="Password"></string>
+    <string name="Valider"></string>
+    <string name="imgDescription"></string>
+
+</resources>

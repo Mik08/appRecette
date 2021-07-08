@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_inscription"
+        android:title="Inscription"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_inscription" />
+
+    <item
+        android:id="@+id/menu_connexion"
+        android:title="connexion"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_connexion" />
+
+    <item
+        android:id="@+id/menu_profil"
+        android:title="profil"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_profil" />
+
+    <item
+        android:id="@+id/deconnexion"
+        android:title="@string/Deconnexion"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+    </menu>
