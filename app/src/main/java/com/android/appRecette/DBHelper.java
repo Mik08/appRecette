@@ -36,7 +36,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Long result = madb.insert("user", null, contentValues);
         if (result == -1) {
-            //retourne une errreur
+            //retourne une errreur vide
             return false;
         } else {
             return true;
